@@ -36,7 +36,6 @@ function nextPOS(){
   // Check if word matches before adding. 
   replacements.push(metaWord);
   localStorage.setItem('replacements', JSON.stringify(replacements));
-  alert(replacements);
   modified = makeReplacedString();
   let storyshow = document.getElementById("storyShow");
   storyshow.innerHTML = modified;
